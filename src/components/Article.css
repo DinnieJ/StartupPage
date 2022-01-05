@@ -1,0 +1,18 @@
+.article:hover {
+    transform: scale(1.1);
+}
+
+.tags {
+    display: none;
+}
+
+.article:hover > .detail {
+    height: 50%;
+    position: absolute;
+}
+
+.article:hover > .detail > .tags {
+    display: flex !important;
+}
+
+
